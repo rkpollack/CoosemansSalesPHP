@@ -1,5 +1,5 @@
 <?php
-$ort = $_GET['ort'];
+$ort = $_POST['ort'];
 $url = "http://1webblvd.com/shpsls.htm";
 $offset = 3;
 if (strpos($ort,"arket") >0) $url = "http://dvr.coosemansla.com:81/stats/mktsls.htm";
