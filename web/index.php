@@ -1,4 +1,3 @@
-<html><body>
 <?php
 $ort = $_GET['ort'];
 $url = "http://1webblvd.com/shpsls.htm";
@@ -10,8 +9,6 @@ $datestr = substr($string,121+$offset,2)."/".substr($string,124+$offset,2);
 $timestr = substr($string,163+$offset,5);
 $x3 = strpos($string,"Total All Items")+121;
 $amt = substr($string,$x3,12);
-echo ("$ort sales for $datestr at $timestr is $$amt");
-
+$result = $ort." sales for ".$datestr." at ".$timestr." is $".$amt;
+echo $result;
 ?>
-</body>
-</html>
