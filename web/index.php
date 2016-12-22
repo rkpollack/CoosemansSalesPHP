@@ -2,6 +2,6 @@
 
 $myarr = array('a' => "this is an associative array");
 
-print json_encode(myarr);
+print json_encode($myarr);
 
 ?>
