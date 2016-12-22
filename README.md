@@ -1,3 +1,13 @@
+## Bob's Notes
+
+git commit -am "my message"
+git push heroku master
+git push origin master
+
+heroku logs --tail
+
+https://powerful-sea-69231.herokuapp.com/
+
 # php-getting-started
 
 A barebones PHP app that makes use of the [Silex](http://silex.sensiolabs.org/) web framework, which can easily be deployed to Heroku.
