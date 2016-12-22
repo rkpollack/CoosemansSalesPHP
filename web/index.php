@@ -1,6 +1,6 @@
 <?php
 
-$myarr = array('a' => array("b" => "this is an associative array"));
+$myarr = array('a' => "this is an associative array", 'b' => "this is too");
 
 print json_encode($myarr);
 
