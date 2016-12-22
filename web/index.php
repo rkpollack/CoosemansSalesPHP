@@ -1,7 +1,6 @@
 <?php
 header('Content-Type: application/json');
-$ort = $_GET['ort'];
-error_log(var_dump($_POST));
+$ort = $_POST['ort'];
 $url = "http://1webblvd.com/shpsls.htm";
 $offset = 3;
 if (strpos($ort,"arket") >0) $url = "http://dvr.coosemansla.com:81/stats/mktsls.htm";
