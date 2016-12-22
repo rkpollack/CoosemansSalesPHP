@@ -10,5 +10,8 @@ $timestr = substr($string,163+$offset,5);
 $x3 = strpos($string,"Total All Items")+121;
 $amt = substr($string,$x3,12);
 $result = $ort." sales for ".$datestr." at ".$timestr." is $".$amt;
-echo $result;
+$myarr = array ("speech" => $result, 
+                "displayText" => $result,
+                "source" => "coosemans-sales");
+echo json_encode($myarr);
 ?>
