@@ -15,7 +15,7 @@ if ($action == "coosemansSales") {
     $amt = substr($string,$x3,12);
     $result = $ort." sales for ".$datestr." at ".$timestr." is $".$amt;
 }
-if ($action == "coolerTemps") {
+if ($action == "coosemansTemps") {
 if($page = fopen("http://dvr.coosemansla.com:8800","r")) {
   while ($line=fgets($page,65535)){
     if(strpos($line,"&deg;")) {
