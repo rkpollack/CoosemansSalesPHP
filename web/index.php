@@ -1,4 +1,5 @@
 <?php
+header('Content-Type: application/json');
 $ort = $_POST['ort'];
 $url = "http://1webblvd.com/shpsls.htm";
 $offset = 3;
